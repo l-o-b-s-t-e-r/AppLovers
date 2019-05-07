@@ -1,0 +1,32 @@
+<resources>
+
+    <style name="AppTheme.Launcher">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#534C5F</item>
+        <item name="colorPrimaryDark">#453f50</item>
+        <item name="colorAccent">#1DE278</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="LoginEditTextStyle" parent="android:Widget.EditText">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textColorHint">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_size_s</item>
+        <item name="android:padding">@dimen/padding_xxl</item>
+        <item name="android:background">@drawable/edit_text_background</item>
+    </style>
+
+    <style name="BtnPrimaryStyle" parent="android:Widget.Button">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_size_s</item>
+        <item name="android:paddingTop">@dimen/padding_xxl</item>
+        <item name="android:paddingBottom">@dimen/padding_xxl</item>
+        <item name="android:background">@drawable/btn_primary_ripple_background</item>
+    </style>
+
+</resources>

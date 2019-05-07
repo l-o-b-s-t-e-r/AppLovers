@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AppLovers</string>
+    <string name="logo_transition_name">logo_transition</string>
+
+    <!-- Login Screen -->
+    <string name="login_screen_title">Login</string>
+    <string name="hint_email">Email address</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Login</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_title">Success!</string>
+    
+    <!-- Toasts -->
+    <string name="toast_field_is_empty">Field cannot be empty</string>
+    <string name="toast_illegal_character">Field contains illegal characters</string>
+    <string name="toast_email_is_not_valid">Email is not valid</string>
+    <string name="toast_email_or_password_is_incorrect">Email or Password is incorrect</string>
+    <string name="toast_no_internet">No internet</string>
+    <string name="toast_server_error">Oops! Server side error</string>
+    <string name="toast_unrecognized_error">Oops! Something went wrong</string>
+</resources>
